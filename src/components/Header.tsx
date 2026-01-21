@@ -11,6 +11,14 @@ export default function Header() {
         Home
       </Link>
 
+      <Link
+        to="/play"
+        className="font-bold border-b-2 border-transparent"
+        activeProps={{ className: 'border-cyan-400' }}
+      >
+        Play
+      </Link>
+
       {/* We will add more links here later */}
     </header>
   )
